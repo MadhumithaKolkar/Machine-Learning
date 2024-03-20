@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-image: url('house.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Container */
+.container {
+    max-width: 430px;
+    margin: 100px auto; /* Adjust margin to center the form section */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+.containers {
+    text-align: center;
+}
+
+
+.switch-field {
+	display: flex;
+    margin-bottom: 20px;
+}
+
+.switch-field input {
+	display: none;
+}
+
+.switch-field label {
+	flex: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.switch-field label:last-child {
+    border-radius: 0 5px 5px 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.switch-field input:checked + label {
+	background-color: #a5dc86;
+}
+
+.form {
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    width: calc(100% - 20px); /* Subtract padding from width */
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Select Input */
+.select-field {
+    width: calc(100% - 20px); /* Subtract padding from width */
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit{
+    width: calc(100% - 20px); /* Subtract padding from width */
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn {
+    width: calc(100% - 20px); /* Subtract padding from width */
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.result {
+    background: #ffffff; /* Change background color to white */
+    width: 50%; /* Adjust width to fill the container */
+    border-radius: 0px; /* Add rounded corners */
+    margin: 0px auto; /* Center align and add margin for separation */
+    padding: 0px; /* Add padding for better spacing */
+    font-family: "Roboto", sans-serif; /* Use the same font family */
+    font-size: 20px; /* Increase font size */
+    text-align: center;
+    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+    cursor: pointer; /* Change cursor to pointer for interaction */
+}
+
+.result:hover {
+    background: #f0f0f0; /* Change background color on hover */
+}
+
+
