@@ -56,7 +56,7 @@ Explore each concept to gain a comprehensive understanding of the machine learni
 To utilize the implementations provided in this repository, follow these steps:
 
 1. Clone the repository to your local machine:
-git clone [https://github.com/your-username/machine-learning-algorithms.git](https://github.com/MadhumithaKolkar/Machine-Learning.git)
+git clone https://github.com/MadhumithaKolkar/Machine-Learning.git
 
 2. Navigate to the directory containing the desired algorithm or concept:
 cd machine-learning-algorithms
