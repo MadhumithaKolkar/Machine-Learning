@@ -9,7 +9,6 @@ Welcome to the Machine Learning Algorithms and Concepts repository! This reposit
 - [Concepts Covered](#concepts-covered)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
